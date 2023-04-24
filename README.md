@@ -1,29 +1,23 @@
-# gtkmm 4.10 Examples
+# GTK 4.10 Examples
 
 ## Dependencies
 
 Arch:
 
 ```console
-$ sudo pacman -Sy gtkmm-4.0
+sudo pacman -Sy gcc pkg-config cmake gtk4 meson ninja
 ```
 
 Debian/Ubuntu:
 
 ```console
-$ sudo apt install libgtkmm-4.0-dev
+sudo apt update && sudo apt install gcc pkg-config cmake libgtk-4-dev meson ninja-build
 ```
-
 
 ## Building the Examples
 
 ```console
-$ cd examples/hello-world
-$ mkdir build
-$ cd build
-$ cmake ..
-$ make
-$ ./example
+./build.sh
 ```
 
 ## Examples
