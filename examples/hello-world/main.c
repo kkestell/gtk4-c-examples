@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 {
     // Create a new GtkApplication with the specified application ID and flags
     // https://docs.gtk.org/gtk4/ctor.Application.new.html
-    GtkApplication *app = gtk_application_new("com.example.hello-world", G_APPLICATION_FLAGS_NONE);
+    GtkApplication *app = gtk_application_new("com.example.hello-world", G_APPLICATION_DEFAULT_FLAGS);
 
     // Connect the "activate" signal of the app to the on_activate function
     // https://docs.gtk.org/gio/signal.Application.activate.html

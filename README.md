@@ -5,19 +5,13 @@
 Arch:
 
 ```
-sudo pacman -Sy gcc pkg-config cmake gtk4 meson ninja
+sudo pacman -Sy gcc make pkg-config gtk4
 ```
 
 Debian/Ubuntu:
 
 ```
-sudo apt update && sudo apt install gcc pkg-config cmake libgtk-4-dev meson ninja-build
-```
-
-## Building the Examples
-
-```
-./build.sh
+sudo apt update && sudo apt install gcc make pkg-config libgtk-4-dev
 ```
 
 ## Examples

@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-
-rm -rf build
-mkdir build
-cd build
-meson setup ..
-ninja
-cd -
