@@ -1,4 +1,4 @@
-PROJECT_NAME = signals
+PROJECT_NAME = hello-gtk
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror -Wno-unused-parameter -std=gnu11 
 GTK_LIBS = `pkg-config --cflags --libs gtk4`

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk+" version="4.0"/>
+  <object class="GtkApplicationWindow" id="window">
+    <property name="title">Hello Adwaita</property>
+    <property name="default_width">640</property>
+    <property name="default_height">480</property>
+    <child>
+      <object class="GtkLabel" id="label">
+        <property name="label">Hello Adwaita</property>
+      </object>
+    </child>
+  </object>
+</interface>

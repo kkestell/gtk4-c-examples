@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/example/YourApp">
+    <file>adw-tab-view-demo-window.ui</file>
+    <file>adw-tab-view-demo-page.ui</file>
+  </gresource>
+</gresources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkApplicationWindow" id="window">
+    <property name="title">Hello World</property>
+    <property name="default_width">640</property>
+    <property name="default_height">480</property>
+  </object>
+</interface>

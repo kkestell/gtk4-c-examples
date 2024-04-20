@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk+" version="4.0"/>
+  <menu id="primary-menu">
+    <section>
+        <item>
+        <attribute name="label" translatable="yes">Hi</attribute>
+        <attribute name="action">win.hi</attribute>
+        </item>
+    </section>
+  </menu>
+  <object class="GtkApplicationWindow" id="window">
+    <property name="default_width">640</property>
+    <property name="default_height">480</property>
+    <child type="titlebar">
+      <object class="AdwHeaderBar" id="header_bar">
+          <property name="title-widget">
+            <object class="GtkLabel">
+              <property name="label" translatable="yes">Hello Adwaita</property>
+              <property name="single-line-mode">True</property>
+              <property name="ellipsize">end</property>
+              <style><class name="title"/></style>
+            </object>
+          </property>
+          <child type="end">
+            <object class="GtkMenuButton" id="primary-menu-button">
+              <property name="icon-name">open-menu-symbolic</property>
+              <property name="tooltip-text" translatable="yes">Main Menu</property>
+              <property name="menu-model">primary-menu</property>
+            </object>
+          </child>      
+      </object>
+    </child>
+    <child>
+      <object class="GtkLabel" id="label">
+        <property name="label">Hello Adwaita</property>
+      </object>
+    </child>
+  </object>
+</interface>
